@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+elasticsearch = "*"
+sentence-transformers = "*"
+anthropic = "*"
+langchain-elasticsearch = "*"
+langchain = "*"
+langchain-community = "*"
+
+[dev-packages]
+jupyter = "*"
+pandas = "*"
+matplotlib = "*"
+aider-chat = "*"
+pre-commit = "*"
+isort = "*"
+black = "*"
+flake8 = "*"
+rouge = "*"
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.5"
